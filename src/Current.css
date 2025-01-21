@@ -43,6 +43,10 @@ header {
   height: 75px;
   margin-top: 8px;
 }
+.City {
+  font-size: 80px;
+  color: #f65292;
+}
 .Temperature {
   font-size: 80px;
   line-height: 80px;

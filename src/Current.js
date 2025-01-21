@@ -6,7 +6,7 @@ export default function Current() {
     <div className="Current">
       <div>
         <h1 className="City">London</h1>
-        <p class="weather-app-details">
+        <p className="weather-app-details">
           <span className="Time"> Friday 9:00</span>,{" "}
           <span className="Description"> clear sky </span>
           <br />
