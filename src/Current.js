@@ -3,10 +3,10 @@ import "./Current.css";
 
 export default function Current() {
   return (
-    <div className="Current">
+    <div className="Current-container">
       <div>
         <h1 className="City">London</h1>
-        <p className="weather-app-details">
+        <p className="Weather-app-details">
           <span className="Time"> Friday 9:00</span>,{" "}
           <span className="Description"> clear sky </span>
           <br />
@@ -22,9 +22,11 @@ export default function Current() {
           </span>
         </p>
       </div>
-      <div className="Container">
-        <div className="Temperature"> 7</div>
-        <div className="Unit">°C</div>
+      <div className="Temperature-container">
+        <div className="Temperature">
+          {" "}
+          7<span className="Unit">°C</span>
+        </div>
       </div>
     </div>
   );
