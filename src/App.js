@@ -9,32 +9,31 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           <Weather />
-          Hello
         </p>
         <footer className="App-link">
-          Coded by
+          Coded by{" "}
           <a
             href="https://github.com/kcodes57"
             target="_blank"
             rel="noreferrer"
           >
             Kirsten McIntyre
-          </a>
-          is
+          </a>{" "}
+          is open-sourced on {""}
           <a
             href="https://github.com/kcodes57/K-Weather-App"
             target="_blank"
             rel="noreferrer"
           >
-            open-sourced on GitHub
-          </a>
-          and website hosted
+            GitHub
+          </a>{" "}
+          and hosted on{" "}
           <a
             href="https://k-shecodes-weather-app.netlify.app/"
             target="_blank"
             rel="noreferrer"
           >
-            on Netlify
+            Netlify
           </a>
         </footer>
       </header>
